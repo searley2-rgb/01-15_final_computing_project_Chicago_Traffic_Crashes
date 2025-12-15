@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light"><a
+            class="navbar-brand" href="#">Chicago Traffic Insider </a><button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="!crash_date_page_index.html">Crash Timing</a></li>
+                <li class="nav-item"><a class="nav-link" href="!crash_conditions_page_index.html">Exterior Conditions</a></li>
+                <li class="nav-item"><a class="nav-link" href="!injury_damage_page_index.html">Injury and Damages</a></li>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        
+    <div class="container" id="bsr-wrapper">
+        <h1>Crash Timing Information</h1>
+        <div class='my-5'></div>
+        <h3>Crash Volume by Day of the Week</h3>
+        <div class="col mx-auto"><embed src="/Users/shannonearley/Library/CloudStorage/GoogleDrive-searley2@nd.edu/Shared drives/Principles of Computing/visualizations/crash_dow_counts_bar.html"
+                type="text/html" height="500" width="800"></div>
+        <p>This chart compares the total number of traffic crashes across Chicago by day of week, revealing clear patterns 
+            in crash risk tied to daily travel behavior. Crashes are most frequent on Fridays, suggesting increased risk during end-of-week commutes and social travel.
+        Crashes mid-week remain consistently high due to high volume of commuter traffic. In contrast, Sundays experience the fewest crashes, refelcting lighter traffic valumes and more flexible travel schedules. Together, these patterns 
+        highlight how routine traffic flow and weekly habit influence when crashes are most likley to occur, helping drivers better anticipate higher-risk days on Chicago's roadways.    </p>
+        <h3>Crash Volume by Month</h3>
+        <div class="col mx-auto"><embed src="/Users/shannonearley/Library/CloudStorage/GoogleDrive-searley2@nd.edu/Shared drives/Principles of Computing/visualizations/crash_month_bar.html"
+                type="text/html" height="500" width="800"></div>
+        <p>This visualization shows how traffic crashes in Chicago vary by month, revealsing clear seasonal patterns in roadway risk. Chras counts rise steadily from late winteer into spring and peak during the
+            summer months, when increased travel, construction activity, and pedestrian traffic contribute to higher exposer on the roads. In contrast, crashes decline in late fal and reach their lowest levels in December, likely due
+            to reduced travel volume and seasonal driving behavior. These trends highlight how time of year plays a significant role in crash risk, helping drivers anticipate safer and more dangerous periods throughout the year. 
+        </p>
+        <h3>Crash Volume Over Time</h3>
+        <div class="col mx-auto"><embed src="/Users/shannonearley/Library/CloudStorage/GoogleDrive-searley2@nd.edu/Shared drives/Principles of Computing/visualizations/crash_time_scatter.html"
+                type="text/html" height="500" width="800"></div>
+        <p>This scatterplot presents a citywide view of monthly traffic crashes in Chicago from 2018 through November 2025, illustrating how crash levels fluctuate over time and follow recurring seasonal patterns 
+            throughout each year. The data reveals a consistent rise in crashes during the warmer summer months, peaking around June to August, when increased travel and outdoor activities lead to higher road exposure. Conversely, crash counts dip during the 
+            colder winter months, particularly in December and January, likely due to reduced travel and more cautious driving in adverse weather conditions. Notably, there is a significant drop in crashes around March 2020, coinciding with the onset of COVID-19 
+            lockdowns that drastically reduced traffic volume. The spread of points within each year shows that monthly crash totals vary significantly even within the same season, emphasizing that risk is not evenly distributed across time.
+            Overall, this visualization highlights the strong influence of seasonal factors and external events on traffic safety in Chicago over the analyzed period.
+        </p>
+        <h3>Crash Volume by Hour</h3>
+        <div class="col mx-auto"><embed src="/Users/shannonearley/Library/CloudStorage/GoogleDrive-searley2@nd.edu/Shared drives/Principles of Computing/visualizations/crashes_by_hour_hist.html"
+                type="text/html" height="500" width="800"></div>
+        <p>The histogram above examines how traffic crashes in Chicago vary by hour of the day and lighting condition, revealing how time and visibility interact to influence roadway risk. Crashes peak during daylight hours, partiularly in the late morning and afternoon, reflecting higher
+            traffic volumes during standard commuting and daytime travel. A second rise occurs in the early evening hours when crahses increasingly take place under dusk and dark conditsions as visibilty declines. Addisionally, crashes in darkness, both on lighted and unlighted roads, become more prominent at night. 
+            This demonstrates an added risk drivers face after sunset. These patterns highlight the importance of bothe traffic colume and lighting conditions in shaping when crashes are most likley to occur.   </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
